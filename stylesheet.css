@@ -1,0 +1,116 @@
+body {
+  background-color: #43A0AD;
+}
+
+#mainHeader {
+  color: White;
+  font-family: Georgia, serif, 'Times New Roman';
+  font-size: 42px;
+  font-weight: bold;
+  background-color: #335971;
+  border: 4px solid white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+/* nav bar */
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 2px solid #335971;
+  border-radius: 4px;
+  background-color: #335971;
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #A3CFD9;
+  display: block;
+  padding: 8px;
+  min-width: 15%;
+  background-color: #335971;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #43A0AD;
+}
+
+.active {
+  color: #335971;
+  background-color: white;
+}
+
+#mail {
+  float: left;
+  color: #A3CFD9;
+  display: block;
+  padding: 8px;
+  padding-right: 20px;
+  background-color: #335971;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #43A0AD;
+  min-width: 15%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 1% 1%;
+  margin-right: 2%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding-right: 1%;
+}
+
+form {
+  color: #335971;
+  min-width: 15%;
+}
+
+
+/* table */
+#tableBody {
+  background-color: #43A0AD;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Times New Roman';
+}
+
+#storeHeader {
+  border: 2px solid #335971;
+  font-family: 'Times New Roman';
+}
+
+#storeHeader {
+  border: 3px solid #A3CFD9;
+}
+
+td {
+  color: #D6E4E9;
+}
+
+#aboutMeText {
+  color: #D6E4E9;
+  font-family: 'Times New Roman';
+}
+
+/*td:hover {
+  background-color: lightblue;
+}*/
